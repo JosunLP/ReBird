@@ -1,7 +1,7 @@
 {
-  "name": "userscript-project-template",
+  "name": "rebird",
   "version": "0.0.1",
-  "description": "A user script project template to create large and structured TypeScript projects for Tampermonkey or Greasemonkey. It is intended to form a scalable base and is primarily aimed at the Ingress community.",
+  "description": "A Browser Extension to fight X and bring back the 🐦",
   "main": "index.ts",
   "scripts": {
     "build": "webpack && npm run build-userScriptHeader",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JosunLP/UserScriptProjectTemplate.git"
+    "url": "git+https://github.com/JosunLP/ReBird.git"
   },
   "keywords": [
     "User",
@@ -22,9 +22,9 @@
   "author": "Jonas Pfalzgraf <info@josunlp.de>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JosunLP/UserScriptProjectTemplate/issues"
+    "url": "https://github.com/JosunLP/ReBird/issues"
   },
-  "homepage": "https://github.com/JosunLP/UserScriptProjectTemplate#readme",
+  "homepage": "https://github.com/JosunLP/ReBird#readme",
   "devDependencies": {
     "ts-loader": "^9.3.1",
     "ts-node": "^10.9.1",

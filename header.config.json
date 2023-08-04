@@ -1,19 +1,20 @@
 {
-    "updateUrl": "",
-    "downloadUrl": "",
-    "supportUrl": "",
+    "updateUrl": "https://raw.githubusercontent.com/JosunLP/ReBird/main/dist/rebird.user.js",
+    "downloadUrl": "https://raw.githubusercontent.com/JosunLP/ReBird/main/dist/rebird.user.js",
+    "supportUrl": "https://ko-fi.com/josunlp/",
     "iconUrl": "./assets/icon.png",
     "includes": [
-        "https://*.ingress.com/intel*"
+        "https://*.twitter.com/*",
+        "https://*.x.com/*"
     ],
     "excludes": [
-        "https://*.ingress.com/mission/*"
     ],
     "requires": [],
     "recources": [],
     "connecters": [],
     "matches": [
-        "https://*.ingress.com/intel*"
+        "https://*.twitter.com/*",
+        "https://*.x.com/*"
     ],
     "runAt": "document-start",
     "grants": [
